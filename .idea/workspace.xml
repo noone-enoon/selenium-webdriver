@@ -12,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_stickers.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_stickers.py">
+      <file leaf-file-name="test_sorting_countries_and_zones.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_sorting_countries_and_zones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="23">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -24,11 +24,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webelement.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <file leaf-file-name="test_sorting_zones.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_sorting_zones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
+            <state relative-caret-position="132">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event_firing_webdriver.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/support/event_firing_webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-639">
+              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,6 +65,10 @@
         <option value="$PROJECT_DIR$/test_login_page.py" />
         <option value="$PROJECT_DIR$/test_admin_panel_sections.py" />
         <option value="$PROJECT_DIR$/test_stickers.py" />
+        <option value="$PROJECT_DIR$/sorting_countries_and_geofences.py" />
+        <option value="$PROJECT_DIR$/test_sorting_countries_and_geofences.py" />
+        <option value="$PROJECT_DIR$/test_sorting_countries_and_zones.py" />
+        <option value="$PROJECT_DIR$/test_sorting_zones.py" />
       </list>
     </option>
   </component>
@@ -111,73 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_stickers.py">
-    <configuration default="false" name="test_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="selenium-webdriver" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in test_example.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="selenium-webdriver" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_example.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in test_login_page.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="selenium-webdriver" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_login_page.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in test_admin_panel_sections.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="selenium-webdriver" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_admin_panel_sections.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test for test_sorting_zones.test_check_sorting_zones">
     <configuration default="false" name="py.test in test_stickers.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,6 +142,74 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_stickers.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sorting_countries_and_geofences" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="selenium-webdriver" />
+      <option name="SCRIPT_NAME" value="D:\GitHub\selenium-webdriver\test_sorting_countries_and_zones.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_sorting_countries_and_zones.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="selenium-webdriver" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_sorting_countries_and_zones.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_sorting_zones" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="selenium-webdriver" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_sorting_zones.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test for test_sorting_zones.test_check_sorting_zones" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="selenium-webdriver" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sorting_zones.test_check_sorting_zones&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -276,19 +294,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test_example" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_example.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_login_page.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_admin_panel_sections.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_stickers.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_stickers.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sorting_countries_and_geofences" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_sorting_countries_and_zones.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_sorting_zones" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_sorting_zones.test_check_sorting_zones" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_stickers.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_admin_panel_sections.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_login_page.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_example.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_example" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_sorting_zones.test_check_sorting_zones" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_sorting_zones" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_sorting_countries_and_zones.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sorting_countries_and_geofences" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_stickers.py" />
       </list>
     </recent_temporary>
   </component>
@@ -306,50 +324,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_stickers_py - 2020.02.22 at 19h 11m 07s.xml">
-      <configuration name="py.test in test_stickers.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_sorting_zones_test_check_sorting_zones - 2020.02.24 at 23h 24m 31s.xml">
+      <configuration name="py.test for test_sorting_zones.test_check_sorting_zones" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_stickers_py - 2020.02.22 at 19h 12m 47s.xml">
-      <configuration name="py.test in test_stickers.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_sorting_zones_test_check_sorting_zones - 2020.02.24 at 23h 26m 44s.xml">
+      <configuration name="py.test for test_sorting_zones.test_check_sorting_zones" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_stickers_py - 2020.02.22 at 19h 15m 39s.xml">
-      <configuration name="py.test in test_stickers.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_sorting_zones_test_check_sorting_zones - 2020.02.24 at 23h 30m 19s.xml">
+      <configuration name="py.test for test_sorting_zones.test_check_sorting_zones" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_stickers_py - 2020.02.22 at 19h 16m 05s.xml">
-      <configuration name="py.test in test_stickers.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_sorting_zones_test_check_sorting_zones - 2020.02.24 at 23h 38m 20s.xml">
+      <configuration name="py.test for test_sorting_zones.test_check_sorting_zones" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_stickers_py - 2020.02.22 at 19h 16m 50s.xml">
-      <configuration name="py.test in test_stickers.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_sorting_zones_test_check_sorting_zones - 2020.02.24 at 23h 39m 37s.xml">
+      <configuration name="py.test for test_sorting_zones.test_check_sorting_zones" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_stickers_py - 2020.02.24 at 17h 25m 52s.xml">
-      <configuration name="py.test in test_stickers.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_sorting_zones_test_check_sorting_zones - 2020.02.24 at 23h 40m 50s.xml">
+      <configuration name="py.test for test_sorting_zones.test_check_sorting_zones" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_stickers_py - 2020.02.24 at 17h 27m 27s.xml">
-      <configuration name="py.test in test_stickers.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_sorting_zones_test_check_sorting_zones - 2020.02.24 at 23h 42m 16s.xml">
+      <configuration name="py.test for test_sorting_zones.test_check_sorting_zones" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_stickers_py - 2020.02.24 at 17h 28m 07s.xml">
-      <configuration name="py.test in test_stickers.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_sorting_zones_test_check_sorting_zones - 2020.02.24 at 23h 49m 21s.xml">
+      <configuration name="py.test for test_sorting_zones.test_check_sorting_zones" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_stickers_py - 2020.02.24 at 17h 31m 11s.xml">
-      <configuration name="py.test in test_stickers.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_sorting_zones_test_check_sorting_zones - 2020.02.24 at 23h 52m 41s.xml">
+      <configuration name="py.test for test_sorting_zones.test_check_sorting_zones" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_stickers_py - 2020.02.24 at 17h 32m 49s.xml">
-      <configuration name="py.test in test_stickers.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_sorting_zones_test_check_sorting_zones - 2020.02.24 at 23h 54m 27s.xml">
+      <configuration name="py.test for test_sorting_zones.test_check_sorting_zones" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17526555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1798179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23404256" sideWeight="0.42867982" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23404256" sideWeight="0.5713202" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49590835" sideWeight="0.45902884" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49590835" sideWeight="0.54097116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43698853" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15384616" sideWeight="0.6517451" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08674304" sideWeight="0.6138088" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -377,15 +395,20 @@
           <line>18</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_sorting_countries_and_zones.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
-        <watch expression="search_contex.find_elements(*args)" language="Python" />
-        <watch expression="search_context.find_elements(*args)" language="Python" />
-        <watch expression="args" language="Python" />
-        <watch expression="products" language="Python" />
+        <watch expression="row.find_elements_by_tag_name[&quot;td&quot;][2]" language="Python" />
+        <watch expression="rows" language="Python" />
+        <watch expression="row" language="Python" />
+        <watch expression="zones" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -440,6 +463,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -447,6 +471,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -464,6 +489,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -481,6 +507,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -549,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -570,21 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_admin_panel_sections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,8 +611,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_stickers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="254">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_admin_panel_sections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/_pytest/python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/selenium/webdriver/support/event_firing_webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-639">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sorting_countries_and_zones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sorting_zones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
