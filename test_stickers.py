@@ -14,16 +14,9 @@ def check_existence_and_uniqueness_of_sticker(search_context, *args):
     return len(search_context.find_elements(*args)) == 1
 
 
-def category_selection(driver, category):
-    product_list = driver.find_element_by_id(category).find_elements_by_tag_name("li")
-    for item in product_list:
-        assert check_existence_and_uniqueness_of_sticker(item, By.CLASS_NAME, "sticker")
-
-
 def test_check_for_stickers(driver):
     driver.get("http://localhost/litecart/en/")
+    products = driver.find_elements_by_class_name("product")
 
-    category_list = ["box-most-popular", "box-latest-products", "box-campaigns"]
-
-    for category in category_list:
-        category_selection(driver, category)
+    for product in products:
+        assert check_existence_and_uniqueness_of_sticker(product, By.CLASS_NAME, "sticker")
