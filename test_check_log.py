@@ -20,7 +20,8 @@ def check_log(driver):
 
 
 def test_check_log(driver):
-    main_page = "http://localhost/litecart/admin/?appl=catalog&doc=catalog&category_id=appl"
+    main_page = "http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1"
+
     driver.get(main_page)
     authentication(driver)
     for i in range(len(driver.find_elements_by_css_selector(".dataTable .row"))-4):
