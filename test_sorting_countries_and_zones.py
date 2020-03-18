@@ -27,7 +27,7 @@ def check_sort(mass_for_check):
 
 
 def test_check_sorting_countries(driver):
-    driver.get("http://localhost/litecart/admin/?app=countries&doc=countries")
+    driver.get("http://localhost/litecart/admin/?appl=countries&doc=countries")
     authentication(driver)
     rows = driver.find_elements_by_class_name("row")
     countries = get_text(4, rows)
@@ -35,7 +35,7 @@ def test_check_sorting_countries(driver):
 
 
 def test_check_zones(driver):
-    countries_link = "http://localhost/litecart/admin/?app=countries&doc=countries"
+    countries_link = "http://localhost/litecart/admin/?appl=countries&doc=countries"
     driver.get(countries_link)
     authentication(driver)
 

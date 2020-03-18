@@ -27,7 +27,7 @@ def check_sort(mass_for_check):
 
 
 def test_check_sorting_zones(driver):
-    start_link = "http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones"
+    start_link = "http://localhost/litecart/admin/?appl=geo_zones&doc=geo_zones"
     driver.get(start_link)
     authentication(driver)
 

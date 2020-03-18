@@ -36,7 +36,7 @@ def test_new_user(driver):
 
     field_values = {
         "firstname": random_str(4), "lastname": random_str(5), "address1": random_str(5), "postcode": "11223",
-        "city": "test_city", "email": random_str(5) + "@" + random_str(3) + "." + random_str(3), "phone": "+1" + random_digit(10),
+        "city": "test_city", "email": random_str(5) + "@" + random_str(3) + "." + random_str(3), "phone": "+appl" + random_digit(10),
         "password": "root", "confirmed_password": "root"
     }
 

@@ -24,7 +24,7 @@ def open_new_window(driver, old_window):
 
 
 def test_open_link_in_new_windoow(driver):
-    driver.get("http://localhost/litecart/admin/?app=countries&doc=countries")
+    driver.get("http://localhost/litecart/admin/?appl=countries&doc=countries")
     authentication(driver)
     first_row = driver.find_elements_by_css_selector(".dataTable .row")[0]
     first_row.find_element_by_css_selector(".fa-pencil").click()
